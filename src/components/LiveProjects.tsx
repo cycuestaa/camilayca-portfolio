@@ -5,7 +5,7 @@ const LiveProjects = () => {
   const projects = [
     {
       name: 'SimplyFitness – Workout Tracker',
-      url: 'https://simplyfitness-camila.vercel.app', // 🔁 Replace with your actual deployed app URL
+      url: 'https://simply-fitness.vercel.app/', // 🔁 Replace with your actual deployed app URL
       description:
         'A personal workout tracking app with goal tracking, PB history, and custom plans.',
     },
