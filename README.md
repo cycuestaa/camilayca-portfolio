@@ -52,3 +52,37 @@ export default tseslint.config({
   },
 })
 ```
+
+# Part A: Scaffold the Project
+```bash
+cd ~/CS-Projects
+npm create vite@latest camilayca-portfolio -- --template react-ts
+```
+# Part B: Install Dependencies
+```bash
+cd camilayca-portfolio
+npm install
+```
+Then, we install Tailwinc CSS
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+# Part C: Run It Locally
+```bash
+npm run dev
+```
+
+## Initial Layout (keep it simple)
+```bash
+/src/
+  App.tsx         ← Main app layout
+  components/
+    AboutMe.tsx   ← "About Me" section
+    LiveProjects.tsx  ← Will link or embed SimplyFitness
+```
+
+
+
+
